@@ -39,3 +39,12 @@ luac.out
 *.x86_64
 *.hex
 
+# Folder
+Library/
+Logs/
+obj/
+Packages/
+Temp/
+PackageAssets/
+MemoryCaptures/
+.vscode/

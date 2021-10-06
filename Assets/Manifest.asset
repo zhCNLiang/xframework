@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66e1ef95826363d499d1f32a1742f2b4, type: 3}
+  m_Name: Manifest
+  m_EditorClassIdentifier: 
+  appVersion: 1
+  resVersion: 1
+  bundleRefs:
+  - name: 080d10d91563db33c4320f6e96996948@a892b617abe4c855955801fcea2af315.unity3d
+    len: 9819
+    hash: a892b617abe4c855955801fcea2af315
+    deps: 050000000a0000000b0000000c000000
+  - name: 131e62393cc086c9d1a6d8748d7006d3@0594cc07d3950ef04ee503cf9f2dcc08.unity3d
+    len: 12450
+    hash: 0594cc07d3950ef04ee503cf9f2dcc08
+    deps: 
+  - name: 43b736c0b4e06638acabd0093ec852c0@7dbf9e96f3de8900baa98d8deb01ee9e.unity3d
+    len: 33988
+    hash: 7dbf9e96f3de8900baa98d8deb01ee9e
+    deps: 
+  - name: 48bc4b7e703d461ca3fd44d982915fd1@08c5297b917b759e308f7061c1e499af.unity3d
+    len: 33219
+    hash: 08c5297b917b759e308f7061c1e499af
+    deps: 
+  - name: 51ba8c3e4f6b56b23f78ebeadbb27e9f@bea8e45f9a88c7e7b2e5493ddd6c4f0c.unity3d
+    len: 1412
+    hash: bea8e45f9a88c7e7b2e5493ddd6c4f0c
+    deps: 
+  - name: 907a7adc371c2f2748163721e4f4f32c@3d4d1c283bafd6da3166194f09cec01b.unity3d
+    len: 685896
+    hash: 3d4d1c283bafd6da3166194f09cec01b
+    deps: 0a0000000b000000
+  - name: 9c6ea1410b23860a8da85c8ee3ab731f@3d93e4977c0a19700bb5c7fe52c99647.unity3d
+    len: 1674
+    hash: 3d93e4977c0a19700bb5c7fe52c99647
+    deps: 
+  - name: bb34f602e45a9fbcb2cdfee7a48673fc@ce6fd05228e4734fcc026e846ab4fa71.unity3d
+    len: 41232
+    hash: ce6fd05228e4734fcc026e846ab4fa71
+    deps: 04000000050000000a0000000b0000000c000000
+  - name: bc2b0331f405bb334105c92d066c5cdd@6d85083c7b2d7628700a77b3aed1db86.unity3d
+    len: 2767
+    hash: 6d85083c7b2d7628700a77b3aed1db86
+    deps: 
+  - name: dca392625388ba4f10e9a74e164946ef@bb148b3a18fb72f7d871dfc96bb6ce0b.unity3d
+    len: 33222
+    hash: bb148b3a18fb72f7d871dfc96bb6ce0b
+    deps: 
+  - name: dffb10b4137e484d5290ec9e72cc8633@838e6e83db4c0d19d6a912423c0a82b9.unity3d
+    len: 88764
+    hash: 838e6e83db4c0d19d6a912423c0a82b9
+    deps: 
+  - name: e51d3db19b0782ada114823774c75e23@dbb36fb4f17595401cb73c13a29515fb.unity3d
+    len: 2710
+    hash: dbb36fb4f17595401cb73c13a29515fb
+    deps: 0a000000
+  - name: f1de07a24af299b450b03a92d551b38e@1a1d4940bcb4e8dba0a432ed61875038.unity3d
+    len: 5416
+    hash: 1a1d4940bcb4e8dba0a432ed61875038
+    deps: 050000000a0000000b000000
+  assetRefs:
+  - path: Assets/Art/Chaos Knight Warrior/readMe.txt
+    bundle: 6
+  - path: Assets/Art/Chaos Knight Warrior/Controller/Chaos Knight Warrior.controller
+    bundle: 12
+  - path: Assets/Art/Chaos Knight Warrior/Demo/Demo.unity
+    bundle: 7
+  - path: Assets/Art/Chaos Knight Warrior/Demo/DemoSettings.lighting
+    bundle: 4
+  - path: Assets/Art/Chaos Knight Warrior/Materials/Monster_066_alpha.mat
+    bundle: 11
+  - path: Assets/Art/Chaos Knight Warrior/Materials/Monster_066_diff.mat
+    bundle: 11
+  - path: Assets/Art/Chaos Knight Warrior/Materials/Monster_066_diff_01.mat
+    bundle: 11
+  - path: Assets/Art/Chaos Knight Warrior/Mesh/Chaos Knight Warrior.fbx
+    bundle: 5
+  - path: Assets/Art/Chaos Knight Warrior/Prefab/Chaos Knight Warrior.prefab
+    bundle: 0
+  - path: Assets/Art/Chaos Knight Warrior/Texture/Monster_066_alpha.png
+    bundle: 10
+  - path: Assets/Art/Chaos Knight Warrior/Texture/Monster_066_diff.png
+    bundle: 10
+  - path: Assets/Art/Chaos Knight Warrior/Texture/Monster_066_diff_01.png
+    bundle: 10
+  - path: Assets/Lua/GameApp.lua
+    bundle: 8
+  - path: Assets/Scenes/GameApp.unity
+    bundle: 2
+  - path: Assets/Scenes/GameMain.unity
+    bundle: 3
+  - path: Assets/Scenes/SampleScene.unity
+    bundle: 9
+  - path: Assets/Art/UI/Prefab/UpdatePanel.prefab
+    bundle: 1

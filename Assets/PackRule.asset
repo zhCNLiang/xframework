@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7eec9e79ab63e0c4293e91fcf6718992, type: 3}
+  m_Name: PackRule
+  m_EditorClassIdentifier: 
+  UseBundleMode: 0
+  UseMd5Name: 1
+  PackAssets:
+  - SearchPath: Assets/Art/Chaos Knight Warrior
+    Recursive: 1
+    SearchPattern: '*.*'
+    BundleName: 2
+    ExplicitName: 
+  - SearchPath: Assets/Art/Chaos Knight Warrior/Demo
+    Recursive: 0
+    SearchPattern: '*.unity'
+    BundleName: 0
+    ExplicitName: Scenes
+  - SearchPath: Assets/Lua
+    Recursive: 1
+    SearchPattern: '*.Lua'
+    BundleName: 0
+    ExplicitName: Lua
+  - SearchPath: Assets/Scenes
+    Recursive: 0
+    SearchPattern: '*.unity'
+    BundleName: 1
+    ExplicitName: 
+  - SearchPath: Assets/Art/UI/Prefab
+    Recursive: 1
+    SearchPattern: '*.prefab'
+    BundleName: 1
+    ExplicitName: 
